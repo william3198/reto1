@@ -9,7 +9,6 @@
 .perfil{
     min-height: 100vh;
     display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
 
@@ -18,8 +17,17 @@
     padding: 0 1rem;
 }
 .tarjeta{
-
+    box-shadow: 0 0 0.125rem 0.125rem white;
+    border-radius: 5rem;
+    overflow: hidden;
+    max-width: 320px;
+    background-color: rgba(101, 173, 240, 0.846);
+    transition: box-shadow 0.45;
 }
+.tarjeta:hover{
+    box-shadow: 0 0 0.125rem 0.125rem rgb(26, 148, 136);
+}
+/*
 .tarjeta__header{
 
 }
@@ -56,4 +64,5 @@
 }
 .tarjeta__footer-nav-img{
 
-}
+}*/
+
